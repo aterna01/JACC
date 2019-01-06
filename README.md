@@ -9,7 +9,7 @@ This project is live on [heroku](https://jacc-shopping.herokuapp.com/)
 3. Run npm i
 
 4. Create a file config.env in your root directory and save the database credentials in this format:
-```export DB_URL = postgres://_your_db_info_```
+```DATABASE_URL = postgres://_your_db_info_```
 5. Run npm start
 
 6. Go to localhost:4040 for the home page
@@ -26,10 +26,10 @@ With this app, we will create an MVP, using just one user Jane Doe, to show how 
 ## :ok_woman: User journey
 1. User goes to the website and sees a **Welcome User page**
 
-2. User clicks on ` Add to list ` button
+2. User clicks on ` Begin ` button
 
 3. User see the **Shopping List page**
-  <br>a) User will see a **form** with the following fields: Item, Quantity, Approx Price, to add their data
+  <br>a) User will see a **form** with the following fields: Name, Item, Quantity, Approx Price, to add their data
   <br>b) User will submit form
   
 4. User will be taken to **Current list page** to view the whole list
